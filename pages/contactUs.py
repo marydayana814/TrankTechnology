@@ -1,7 +1,7 @@
 class ContactUs:
     def __init__(self, page):
         self.page = page
-        self.contact_us = page.locator('(//[@href="https://www.tranktechnologies.com/contact-us"])[1]')
+        self.contact_us = page.locator('(//a[@href="https://www.tranktechnologies.com/contact-us"])[1]')
         self.cts_web_dev = page.locator('//a[@href="https://www.tranktechnologies.com/web-development-company"]')
         self.cts_cms = page.locator('//a[@href="https://www.tranktechnologies.com/web-development-company"]')
         self.cts_ecom = page.locator('(//a[@href="https://www.tranktechnologies.com/ecommerce-web-development-company"])[7]')
